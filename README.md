@@ -1,3 +1,3 @@
 # odin-landing-page-project
 
-Create website landing page to practice writing HTMl and CSS from scratch
+Create website landing page to practice writing HTML and CSS from scratch
