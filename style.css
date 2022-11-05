@@ -8,6 +8,17 @@ body {
     background-color: #1f2937;
 }
 
+.logo,
+.hero-title {
+    color: #f9faf8;
+}
+
+a,
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -18,7 +29,6 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #f9faf8;
 }
 
 .links {
@@ -26,12 +36,51 @@ body {
 }
 
 li {
-    font-size: 18px;
     list-style: none;
     margin-left: 16px;
 }
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+    gap: 32px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text {
+    margin-bottom: 12px;
+}
+
+.sign-up {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 32px;
+    color: #ffffff;
+    background-color: #3882f6;
+    border: none;
+}
+
+.placeholder {
+    flex: 1;
+    height: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #818c98;
+    color: #ffffff;
 }
